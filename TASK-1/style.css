@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+
+/* footer Styling */
+.footer__container{
+
+  display: flex;
+  padding: 3em 0 2em;
+  padding-bottom: 0;
+  width: 100%;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+  
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  background-color: #090b8a;
+
+  
+}
+.footer_linksContainer{
+  display: flex;
+  justify-content: space-around;
+    /* background: #090b8a; */
+  
+  width: 100%;
+  height: 100%;
+}
+.footer__connectWithUs{
+  display: flex;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  justify-content: space-around;
+  background: #1b0606;
+  padding: 0;
+  margin-bottom: 0;
+}
+.footer__AboutUs{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  align-items: flex-start;
+ 
+}
+.footer__AboutUs > h2{
+  margin-bottom: 1rem;
+}
+.footer__AboutUs> ul> li >a{
+  text-decoration: none;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.profilefonts > a{
+ /* display: flex;
+ flex-direction: row;
+ justify-content: center; */
+  /* align-items: center; */
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 2.2rem;
+  height: 2.2rem;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.profilefonts > a >i{
+  color :white;
+  font-size: 1.5rem;
+}
+.footer__registeredAddress{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+.footer__registeredAddress > p{
+  margin-top: 0.8rem;
+}
+.helpLink{
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+.helpLink >h3{
+  margin:1rem 10px;
+  font-size: 1rem;
+}
+.helpLink>div> i{
+  font-size: 1rem;
+}
+.helpLink> div{
+ padding: 2px 5px;
+ border:1px solid orange;
+
+}
